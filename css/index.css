@@ -168,6 +168,29 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  background: #FFFFFF;
+  border-bottom: 2px dashed silver;
+  padding: 25px 0 25px;
+  width: 100%;
+}
+.navigation .nav-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.navigation .nav-container a {
+  color: inherit;
+  font-size: 1.69em;
+  margin: 0 20px 0;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+.navigation .nav-container a:hover {
+  color: #17A2B8;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

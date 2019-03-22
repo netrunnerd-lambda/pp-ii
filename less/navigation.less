@@ -1,1 +1,28 @@
 // Navigation Styles here
+
+.navigation {
+  background: @main-bg;
+  border-bottom: 2px dashed silver;
+  padding: 25px 0 25px;
+  width: 100%;
+  
+  .nav-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+
+    a {
+      color: inherit;
+      font-size: 1.69em;
+      margin: 0 20px 0;
+      text-decoration: none;
+      transition: background-color 0.2s, color 0.2s;
+      
+      &:hover {
+        color: @eastern-blue;
+      }
+    }
+  }
+}
